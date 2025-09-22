@@ -60,20 +60,7 @@ Here is the expected flow of how booking works, matching what’s implemented in
 
 Here’s how the project organizes the backend files:
 
-DreamScape_backend/
-├── src/
-│ ├── controllers/ # Request handlers for different routes
-│ ├── models/ # Database models / ORM definitions
-│ ├── repository/ # Route definitions (auth, bookings, etc.)
-│ ├── middleware/ # Auth, logging, validation, etc.
-│ ├── services/ # Business logic, receipt generation, etc.
-│ └── DreamScapeBackend.java  # Entry point for server
-├── config/
-│ ├── db.java # Database connection setup
-│ ├── auth.java # Token secret, expired time, etc.
-├── migrations/ # Database migration scripts
-├── tests/ # Unit / integration tests
-├── package.json # Dependencies & scripts (if Node.js)
-└── README.md
+<img width="364" height="521" alt="image" src="https://github.com/user-attachments/assets/c88f4eca-3804-4112-9472-cd171972b6e5" />
+
 
 
