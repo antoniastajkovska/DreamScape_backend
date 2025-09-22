@@ -30,14 +30,14 @@ The backend handles:
 
 Here are some endpoints the project has:
 
-| Feature | Endpoint | Method | Description |
-
-| User Registration | `/api/auth/register` | POST | Creates a new user account |
-| User Login | `/api/auth/login` | POST | Authenticates user & returns token/session |
-| Get Booking Options | `/api/flights` / `/api/hotels` / `/api/taxis` | GET | Fetches available flights / hotels / taxi rides |
-| Create Booking | `/api/bookings` | POST | Creates a booking (flight + optional hotel + optional taxi) |
-| Get Booking by User | `/api/bookings/:userId` | GET | Lists bookings made by a specific user |
-| Generate Receipt | `/api/bookings/:bookingId/receipt` | GET | Returns receipt or summary for a booking |
+| Feature             | Endpoint                          | Method | Description                                         |
+|---------------------|-----------------------------------|--------|-----------------------------------------------------|
+| User Registration   | `/api/auth/register`              | POST   | Creates a new user account                          |
+| User Login          | `/api/auth/login`                 | POST   | Authenticates user & returns token/session          |
+| Get Booking Options | `/api/flights` `/api/hotels` `/api/taxis` | GET    | Fetches available flights / hotels / taxi rides     |
+| Create Booking      | `/api/bookings`                   | POST   | Creates a booking (flight + optional hotel + taxi)  |
+| Get Booking by User | `/api/bookings/:userId`           | GET    | Lists bookings made by a specific user              |
+| Generate Receipt    | `/api/bookings/:bookingId/receipt`| GET    | Returns receipt or summary for a booking            |
 
 ---
 
