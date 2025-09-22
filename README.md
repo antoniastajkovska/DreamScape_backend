@@ -31,6 +31,7 @@ The backend handles:
 Here are some endpoints the project has:
 
 | Feature | Endpoint | Method | Description |
+
 | User Registration | `/api/auth/register` | POST | Creates a new user account |
 | User Login | `/api/auth/login` | POST | Authenticates user & returns token/session |
 | Get Booking Options | `/api/flights` / `/api/hotels` / `/api/taxis` | GET | Fetches available flights / hotels / taxi rides |
