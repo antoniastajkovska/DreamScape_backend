@@ -18,20 +18,19 @@ The backend handles:
 
 ## ⚙️ Tech Stack
 
-- **Language / Framework:** (e.g. Node.js + Express / Django / Flask / etc.) – *replace with your stack*  
+- **Language / Framework:** ( Java / Spring Boot)  
 - **Database:** PostgreSQL  
-- **Authentication:** JWT / OAuth / sessions (specify your approach)  
-- **API format:** REST (or GraphQL, etc.)  
-- **Other dependencies / tools:** (e.g. ORM like Sequelize / TypeORM / SQLAlchemy; middleware; etc.)
+- **Authentication:** JWT / OAuth / sessions  
+- **API format:** REST   
+  
 
 ---
 
 ## 🛠️ Endpoints / API Overview
 
-Here are some example endpoints you may have (modify as needed):
+Here are some endpoints the project has:
 
 | Feature | Endpoint | Method | Description |
-|---|---|---|---|
 | User Registration | `/api/auth/register` | POST | Creates a new user account |
 | User Login | `/api/auth/login` | POST | Authenticates user & returns token/session |
 | Get Booking Options | `/api/flights` / `/api/hotels` / `/api/taxis` | GET | Fetches available flights / hotels / taxi rides |
@@ -64,14 +63,13 @@ DreamScape_backend/
 ├── src/
 │ ├── controllers/ # Request handlers for different routes
 │ ├── models/ # Database models / ORM definitions
-│ ├── routes/ # Route definitions (auth, bookings, etc.)
+│ ├── repository/ # Route definitions (auth, bookings, etc.)
 │ ├── middleware/ # Auth, logging, validation, etc.
 │ ├── services/ # Business logic, receipt generation, etc.
-│ └── app.js (or main) # Entry point for server
+│ └── DreamScapeBackend.java  # Entry point for server
 ├── config/
-│ ├── db.js # Database connection setup
-│ ├── auth.js # Token secret, expired time, etc.
-│ └── env files # Environment variables (e.g. .env)
+│ ├── db.java # Database connection setup
+│ ├── auth.java # Token secret, expired time, etc.
 ├── migrations/ # Database migration scripts
 ├── tests/ # Unit / integration tests
 ├── package.json # Dependencies & scripts (if Node.js)
