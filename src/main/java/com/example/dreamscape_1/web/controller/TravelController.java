@@ -33,7 +33,6 @@ public class TravelController {
         System.out.println("Request params: fromCity=" + fromCity + ", toCity=" + toCity + ", departureDate=" + departureDate);
 
         List<Flight> flights = travelService.searchFlights(fromCity, toCity, departureDate);
-
         System.out.println("Returning " + flights.size() + " flights to frontend");
         flights.forEach(flight ->
                 System.out.println("  - " + flight.getFromCity() + " → " + flight.getToCity() + " ($" + flight.getBasePrice() + ")")
